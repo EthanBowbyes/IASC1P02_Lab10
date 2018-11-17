@@ -1,9 +1,10 @@
 var todayDate= new Date();
-var seconds = todayDate.getSeconds();
+var seconds = todayDate.getSeconds()+ "." + todayDate.getMilliseconds(); 
+
 
 //Math.round(new Date().getTime()/1000)
-//var todayDate= new getTime();
-//var Seconds = todayDate.getSeconds();
+//var todayDate= new Date();
+//var Seconds = todayDate.getTime();
 
 function stopTime()
 {
